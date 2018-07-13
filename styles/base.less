@@ -17,7 +17,7 @@ atom-text-editor {
   }
 
   .cursor {
-    border-color:@color2light;
+    border-color:@blue2light;
   }
   .line {
     position: relative;
@@ -29,7 +29,7 @@ atom-text-editor {
 
   .highlight.current-result {
     .region {
-      background: @color6dark;
+      background: @gray1dark;
       border: 1px solid #000000;
       border-radius: 3px;
       z-index:-1;
@@ -126,11 +126,11 @@ atom-text-editor {
   color: @purple;
 
   &.syntax--control {
-    color: @color2light;
+    color: @blue2light;
   }
 
   &.syntax--operator {
-    color: @color2light;
+    color: @blue2light;
   }
 
   &.syntax--other.syntax--special-method {
@@ -147,14 +147,14 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @color3light;
+  color: @red1light;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @color3light;
+    color: @red1light;
   }
 
   &.syntax--other.syntax--color {
@@ -174,7 +174,7 @@ atom-text-editor {
   }
 
   &.syntax--parameter.syntax--function {
-    color: @color4light;
+    color: @orange1light;
     font-style: normal;
   }
 
@@ -201,7 +201,7 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @color2medium;
+  color: @blue2medium;
 
 
   &.syntax--regexp {
@@ -227,7 +227,7 @@ atom-text-editor {
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: @color2medium;
+      color: @blue2medium;
     }
 
     &.syntax--heading,
@@ -247,14 +247,14 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: @color2medium;
+    color: @blue2medium;
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @color1medium;
+    color: @blue1medium;
   }
 
   &.syntax--function  {
@@ -268,7 +268,7 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @color1light;
+    color: @blue1light;
   }
   &.syntax--name.syntax--type {
     color: @pale-yellow;
@@ -276,10 +276,10 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @color1medium;
+    color: @blue1medium;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @color1medium;
+    color: @blue1medium;
   }
 
   &.syntax--name.syntax--section {
@@ -287,7 +287,7 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @color1dark;
+    color: @blue1dark;
     text-decoration:none;
   }
 
@@ -299,11 +299,11 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @color1medium;
+    color: @blue1medium;
   }
 
   &.syntax--link {
-    color: @color1light;
+    color: @blue1light;
   }
 
   &.syntax--require {

@@ -1,11 +1,11 @@
 .syntax--html {
 
   &.syntax--string.syntax--quoted {
-    color:@color2medium;
+    color:@blue2medium;
 
     .syntax--begin,
     .syntax--end {
-      color:@color2medium;
+      color:@blue2medium;
     }
   }
 
@@ -18,15 +18,15 @@
   }
 
   .syntax--entity.syntax--other.syntax--attribute-name {
-    color:@color5light;
+    color:@green1light;
   }
 
   .syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
-    color:@color3medium;
+    color:@red1medium;
   }
 
   .syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
-    color:@color4dark;
+    color:@orange1dark;
   }
 
 }
@@ -40,7 +40,7 @@
 }
 
 .syntax--angular {
-    // color: @color3medium;
+    // color: @red1medium;
 
     &.syntax--single {
 
@@ -52,7 +52,7 @@
           }
 
           &.syntax--parameter.syntax--function {
-            color: @color4light;
+            color: @orange1light;
             font-style: normal;
           }
 
@@ -61,7 +61,7 @@
           }
 
           &.syntax--parameter {
-              color:@color3medium;
+              color:@red1medium;
           }
         }
     }
@@ -70,5 +70,5 @@
 
 .syntax--punctuation.syntax--definition.syntax--string.syntax--begin.syntax--html,
 .syntax--punctuation.syntax--definition.syntax--string.syntax--end.syntax--html {
-  color:@color2medium !important;
+  color:@blue2medium !important;
 }
