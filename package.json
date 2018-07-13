@@ -1,7 +1,7 @@
 {
   "name": "lens-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lens Syntax is a dark syntax theme designed for legibility and focus",
   "keywords": [
     "syntax",
