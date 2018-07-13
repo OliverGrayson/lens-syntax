@@ -1,0 +1,74 @@
+.syntax--html {
+
+  &.syntax--string.syntax--quoted {
+    color:@color2medium;
+
+    .syntax--begin,
+    .syntax--end {
+      color:@color2medium;
+    }
+  }
+
+  .syntax--punctuation {
+    color: @light-gray;
+  }
+
+  .syntax--comment .syntax--punctuation {
+    color: @gray;
+  }
+
+  .syntax--entity.syntax--other.syntax--attribute-name {
+    color:@color5light;
+  }
+
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+    color:@color3medium;
+  }
+
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
+    color:@color4dark;
+  }
+
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+    color: @parameterized-lavender;
+
+    &.syntax--mustache {
+      color:#b62d65;
+    }
+}
+
+.syntax--angular {
+    // color: @color3medium;
+
+    &.syntax--single {
+
+        &.syntax--variable {
+          color: @very-light-gray;
+
+          &.syntax--interpolation {
+            color: darken(@red, 10%);
+          }
+
+          &.syntax--parameter.syntax--function {
+            color: @color4light;
+            font-style: normal;
+          }
+
+          &.syntax--other {
+              color: @parameterized-lavender;
+          }
+
+          &.syntax--parameter {
+              color:@color3medium;
+          }
+        }
+    }
+}
+
+
+.syntax--punctuation.syntax--definition.syntax--string.syntax--begin.syntax--html,
+.syntax--punctuation.syntax--definition.syntax--string.syntax--end.syntax--html {
+  color:@color2medium !important;
+}
